@@ -11,6 +11,7 @@ const content = document.querySelector(".content");
 let countWin = 0, countDefeats = 0;
 
 btnLancia.addEventListener("click", function(){
+  btnLancia.classList.remove("btn-lg");
   const dadoPlayer = Math.ceil(Math.random()*6);
   const dadoPC = Math.ceil(Math.random()*6);
   let verdict;
@@ -33,6 +34,7 @@ btnLancia.addEventListener("click", function(){
                       </aside>
                       <section id="center" class="text-center">
                         <h1><span class="badge bg-success">${verdict}</span></h1>
+                        <h5>${countDefeats} - ${countWin}</h5>
                       </section>
                       <aside id="right" class="text-center">
                         <h3>Tu</h3>
