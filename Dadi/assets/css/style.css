@@ -1,9 +1,8 @@
 body{
   background-color: rgb(24, 192, 66);
-  color: white;
 }
 
-h1{
+h1, h3{
   font-weight: bolder;
 }
 
@@ -12,8 +11,16 @@ h1{
 }
 
 .custom-box{
-  background-color: rgb(18, 131, 47);
+  background-color: rgb(245, 224, 35);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, .4);
   height: 55%;
+}
+
+.content{
+  width: 100%;
+}
+
+.content aside{
+  width: 20%;
 }
