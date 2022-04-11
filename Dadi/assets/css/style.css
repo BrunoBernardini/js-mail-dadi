@@ -1,11 +1,19 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body{
+  background-color: rgb(24, 192, 66);
+  color: white;
 }
 
-.clearfix::after{
-  content: '';
-  display: table;
-  clear: both;
+h1{
+  font-weight: bolder;
+}
+
+.wrapper{
+  height: 100vh;
+}
+
+.custom-box{
+  background-color: rgb(18, 131, 47);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+  height: 55%;
 }

@@ -57,10 +57,8 @@ btnAccedi.addEventListener("click", function(){
     }
   }
   if(found){
-    content.innerHTML = `<div class="d-flex align-items-center flex-column">
-                          <div class="badge rounded-pill bg-success mb-3">Accesso riuscito!</div>
-                          <a class="btn btn-primary btn-lg" href="" role="button">Clicca qui per giocare!</a>
-                        </div>`;
+    content.innerHTML = `<div class="badge rounded-pill bg-success mb-3">Accesso riuscito!</div>
+    <div><a class="btn btn-primary btn-lg" href="../Dadi/index.html" role="button">Clicca qui per giocare!</a></div>`
   }
   else{
     content.innerHTML = `<div class="badge rounded-pill bg-warning text-dark">Non fai parte della classe #61!</div>`;
